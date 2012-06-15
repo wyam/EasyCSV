@@ -5,7 +5,7 @@ namespace EasyCSV;
 abstract class AbstractBase
 {
     protected $_handle;
-    protected $_delimiter = ',';
+    protected $_delimiter = ';';
     protected $_enclosure = '"';
 
     public function __construct($path, $mode = 'r+')
